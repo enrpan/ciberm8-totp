@@ -1,0 +1,14 @@
+* 						{ margin: 0; padding: 0; }
+body 					{ font: 16px Georgia, serif; }
+#page-wrap 				{ margin: 2% auto; color: white; }
+#page-wrap > .main 		{ border: 1px solid #999; padding: 1%; margin-bottom: 1px; color: black;}
+section > div 			{ padding: 10px; }
+header, nav, section 	{ background: #eee; text-align: center;}
+footer 					{ background: #eee; text-align: center;}
+nav span 				{ margin: 0px 10px 0px 0px;} 
+footer span				{ margin: 0px 10px 0px 0px;} 
+#ErrorMsgs				{ color: #f61; font-size: smaller;}
+.right             		{ float: right;}
+
+#titulo 				{ color: brown; font-size: 150%; font-weight: 800; }
+#res 					{ color: blue; font-size: 150%; font-weight: 800; }

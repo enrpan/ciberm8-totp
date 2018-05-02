@@ -1,0 +1,18 @@
+<script type="text/javascript" src="/javascripts/zepto.min.js"></script>
+
+<span id="titulo">Resultado</span>
+
+<p><br>
+
+<span><b>Secret Key:</b> <%= data.secret_key %></span><br><br>
+<span><b>Código TOTP:</b> <%= data.totp_code %></span>
+
+<br><br>
+
+<span id="res"><%= data.result %></span>
+
+<br><br>
+
+<a href="/validar"><button type="button">Volver</button></a>
+
+

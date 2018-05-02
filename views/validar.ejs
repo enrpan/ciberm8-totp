@@ -1,0 +1,17 @@
+<span id="titulo">Comprobar TOTP</span>
+
+<p><br>
+
+<form method="get" action="/result">
+  <b>Secret Key: </b>
+  <input type="text" name="secret_key" value="<%= data.secret_key %>" size="65">
+  <br><br>
+  <b>Código TOTP:</b>
+  <input type="text" name="totp_code" value="" maxlength="6" >
+  <br><br>
+  <input type="submit" value="Comprobar" >
+</form> 
+
+
+
+
